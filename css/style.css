@@ -1,0 +1,186 @@
+/*************************************
+        Base Structure
+*************************************/
+html,
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+}
+body {
+    background: #ecf0f1;
+}
+
+/*************************************
+            HEADER
+*************************************/
+/* Logo */
+.logo {
+    padding-top: 20px;
+    margin-bottom: 0px;
+    font-weight: 900;
+    letter-spacing: -2px;
+    line-height: 90%;
+    transition: 0.8s;
+}
+.logo:focus,
+.logo:hover {
+    font-size: 60px;
+    transition: 0.8s;
+}
+.no-top {
+    margin-top: 0px;
+}
+.logo-blue {
+    color: #6297BC;
+}
+.logo-green {
+    color: #9EC630;
+}
+.divisor {
+    display: block;
+    height: 6px;
+    background-color: #9EC630;
+    width: 100%;
+    margin: 5px 5px;
+    border-radius: 5px;
+}
+.navbar-brand {
+    margin-top: 10px;
+    font-size: 22px;
+}
+/* Navigation bar */
+.navbar {
+    border: none;
+    border-radius: 10px;
+}
+#navigation-bar > ul > li > a {
+    font-size: 18px;
+    /* Fade out */
+    transition: background 1s, color 1s;
+    margin: 10px 5px;
+    border-radius: 10px;
+}
+#navigation-bar > ul > li.active > a {
+    background: #22A7F0;
+    color: #FFF;
+}
+#navigation-bar > ul > li > a:focus,
+#navigation-bar > ul > li > a:hover {
+    background: #9EC630;
+    color: #FFF;
+    /* Fade In */
+    transition: background 1s, color 1s;
+}
+#navigation-bar > ul > li > a > .fa {
+    padding: 5px 5px 5px 5px;
+}
+
+/*************************************
+                MAIN
+*************************************/
+.jumbotron {
+    background: #3498db;
+    color: #FFF;
+            box-shadow: 0px 2px 5px #888;
+    -webkit-box-shadow: 0px 2px 5px #888;
+       -moz-box-shadow: 0px 2px 5px #888;
+}
+/* Button */
+.btn-planos,
+.btn-planos:visited,
+.btn-planos:link {
+    font-size: 18px;
+    width: 60%;
+    border: none;
+    border-radius: 15px;
+    background: #FFF;
+    color: #3498db;
+    transition: background 1s, color 1s;
+    margin-bottom: 20px;
+}
+.btn-planos:hover,
+.btn-planos:focus {
+    background: #9EC630;
+    transition: background 1s, color 1s;
+}
+/* Img Shadow */
+.img-shadow {
+    margin-bottom: 20px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+       -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/*************************************
+                FOOTER
+*************************************/
+.footer-row {
+    margin-bottom: 20px;
+}
+.footer-row h4:hover,
+.footer-row h4:focus {
+    color: #3498db;
+    transition: background 1s, color 1s;
+}
+.footer-row h4:not(focus) {
+    transition: background 1s, color 1s;
+}
+
+.footer-row h4 {
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #9EC630;
+}
+
+.quick-links,
+.contact-info {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+/* Quick Links */
+.links-list li {
+    margin-bottom: 10px;
+}
+.links-list a {
+    text-decoration: none;
+    color: #333;
+}
+.links-list a:hover {
+    color: #3498db;
+}
+.links-list a i {
+    font-size: 18px;
+    margin-right: 5px;
+    color: #3498db;
+}
+/* Bar */
+.footer-contact span {
+    width: 20%;
+}
+.footer-links span {
+    width: 35%;
+}
+
+/* Contact Info */
+.contact-info address {
+    margin-bottom: 5px;
+}
+.contact-info p {
+    margin-bottom: 5px;
+}
+.contact-info p a {
+    text-decoration: none;
+    color: #333;
+}
+.contact-info p a:focus,
+.contact-info p a:hover {
+    
+    color: #3498db;
+}
+.contact-info address i,
+.contact-info p a i {
+    padding: 5px 5px;
+    font-size: 18px;
+    color: #3498db;
+}
